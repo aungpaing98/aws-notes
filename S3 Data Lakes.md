@@ -1,3 +1,6 @@
+---
+aliases : [ S3 ]
+---
 # AWS S3 Overview
 - Allows people to store objects (files) in 'buckets' (directories)
 - Buckets **must** have a **globally unique name**

@@ -1,0 +1,4 @@
+- NoSQL data store
+- serverless
+- provision read / write capacity
+- Useful to store a machine learning model served by the application

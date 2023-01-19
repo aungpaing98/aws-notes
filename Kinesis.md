@@ -33,7 +33,7 @@ Four services in Kinesis
 #### Provisioned Mode
 - manually choose number of shards provisioned.
 - Each shard gets 1MB/s in (1000 records per second)
-- Each shard gets 2MB/s out ()
+- Each shard gets 2MB/s out (classic or [[fan-out]] consumer)
 - Pay per shard provisioned per hour
 #### On-demand mode
 - no need to provision or manage the capacity
@@ -92,11 +92,10 @@ Store data into the target destination with batch, not real time.
 
 ### On Machine Learning
 - RANDOM_CUT_FOREST : anomaly detection
-- locate and return information about relatively dense region
+- HOTSPOTS : locate and return information about relatively dense region
 
-## Types
-- Streaming Applications
-	- Apache Flink (standard, heavy code, cannot connect to Kinesis firehose)
+### Streaming Applications
+- Apache Flink (standard, heavy code, cannot connect to Kinesis firehose)
 - SQL Applications (legacy)
 
 

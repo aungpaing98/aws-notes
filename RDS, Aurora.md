@@ -1,0 +1,3 @@
+- Relational Store, SQL
+- OLTP : Online Transaction Processing
+- Must provision servers in advance
