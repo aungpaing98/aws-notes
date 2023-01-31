@@ -4,11 +4,11 @@
 - Data sources may be on-premises
 - Highly available
 
-![[datapipelines.png]]
+![datapipelines](datapipelines.png)
 
 ## Difference between Glue ETL and DataPipelines
 - Glue ETL
-	- Run [[Apache Spark|Spark]] code, Scala or Python based, **focus on ETL.**
+	- Run [Spark](Apache%20Spark.md) code, Scala or Python based, **focus on ETL.**
 	- Do not worry about configuring or managing the resources
 	- Data Catalog to make the data available to Athena or Redshift Spectrum
 - Data Pipeline

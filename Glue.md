@@ -22,7 +22,7 @@
 - Can provide your own Spark or PySpark scripts
 - Target can be S3, JDBC (RDS, Redshift), or in Glue Data Catalog
 - Fully managed, cost effective, pay only for the resources consumed
-- Jobs are run on a serverless [[Apache Spark|Spark]] platform
+- Jobs are run on a serverless [Spark](Apache%20Spark.md) platform
 - Glue Scheduler to schedule the jobs
 - Glue Triggers to automate job runs based on "events"
 
@@ -34,5 +34,5 @@
 - Map : add fields, delete fields, perform external lookups
 #### Machine Learning Transformations
 - FindMatches ML : Identify duplicate or matching records in your dataset
-#### [[Apache Spark]] transformations
+#### [Apache Spark](Apache%20Spark.md) transformations
 - K-Means

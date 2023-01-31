@@ -11,4 +11,4 @@ Standard Deviation ($\sigma$)
 
 ### Dealing with outliers
 - AWS's Random Cut Forest
-	- Found within [[Quicksight]], [[Kinesis]], [[SageMaker]]
+	- Found within [Quicksight](Quicksight.md), [Kinesis](Kinesis.md), [SageMaker](SageMaker.md)

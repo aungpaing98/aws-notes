@@ -1,6 +1,6 @@
 - Elastic MapReduce
-- Managed [[Hadoop]] framework on EC2 instances
-- Includes Spark, HBase, [[Presto]], [[Flink]], Hive & more
+- Managed [Hadoop](Hadoop.md) framework on EC2 instances
+- Includes Spark, HBase, [Presto](Presto.md), [Flink](Flink.md), Hive & more
 - EMR notebooks
 - Several integration points with AWS
 - Prepare big data for pre-processing for Machine learning
@@ -9,7 +9,7 @@
 - Master node
 	- Manage the cluster 
 - Core node
-	- Hosts [[HDFS]] data and run tasks
+	- Hosts [HDFS](HDFS.md) data and run tasks
 - Task node
 	- Run tasks, does not host data
 
@@ -23,13 +23,13 @@ Note:
 	- Can spin up task nodes using spot instance for temporary capacity
 	- Can use reserved instances on long-running clusters to save money.
 - Connect directly to master to run jobs
-- EMR [[Serverless]] lets AWS scale your nodes automatically.
+- EMR [Serverless](Serverless.md) lets AWS scale your nodes automatically.
 
 ### Storage
-- [[HDFS]]
-- EMRFS : access S3 as if it were [[HDFS]]
+- [HDFS](HDFS.md)
+- EMRFS : access S3 as if it were [HDFS](HDFS.md)
 - Local file system
-- EBS for [[HDFS]]
+- EBS for [HDFS](HDFS.md)
 
 ### AWS Integration
 - EC2 for the instances that comprise the nodes
@@ -48,10 +48,10 @@ Note:
 - Can resize a running cluster's core nodes
 
 ### Security
-- [[IAM]] policies
+- [IAM](IAM.md) policies
 - Kerberos
 - SSH
-- [[IAM]] roles
+- [IAM](IAM.md) roles
 
 ### Choosing Instance Types
 - Master node:

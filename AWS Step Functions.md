@@ -7,6 +7,6 @@
 
 ### Examples
 
-![[step_function_train_ml_model.png]]
-![[step_function_tune_ml_model.png]]
-![[step_function_manage_batch_job.png]]
+![step_function_train_ml_model](step_function_train_ml_model.png)
+![step_function_tune_ml_model](step_function_tune_ml_model.png)
+![step_function_manage_batch_job](step_function_manage_batch_job.png)

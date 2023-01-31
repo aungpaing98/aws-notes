@@ -4,14 +4,14 @@
 	- Perform ad-hoc analysis
 	- Quickly get business insights from data
 	- Anytime, on any device (browsers, mobile)
-- [[Serverless]]
+- [Serverless](Serverless.md)
 
 ### Data Sources
 Data preparation allows limited ETL
-- [[S3 Data Lakes|S3]]
-- [[Redshift]]
-- [[RDS, Aurora]]
-- [[Athena]]
+- [S3](S3%20Data%20Lakes.md)
+- [Redshift](Redshift.md)
+- [RDS, Aurora](RDS,%20Aurora.md)
+- [Athena](Athena.md)
 - EC2-hosted databases
 
 ### SPICE
@@ -27,7 +27,7 @@ Data preparation allows limited ETL
 - interactive ad-hoc exploration / visualization of data.
 - Dashboards and KPI's
 - Analyze / Visualize data from
-	- Logs in [[S3 Data Lakes|S3]]
+	- Logs in [S3](S3%20Data%20Lakes.md)
 	- AWS (RDS, Redshift, Athena, S3)
 	- On-premise databases
 

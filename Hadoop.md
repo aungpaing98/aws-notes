@@ -3,7 +3,7 @@ Store and Process vast amount of data efficiently using cluster of computation h
 ## Components
 
 ### 1. Storage Unit
-[[HDFS]] : Hadoop Distributed File system
+[HDFS](HDFS.md) : Hadoop Distributed File system
 It use Replication method, each splitted data is replicated in many blocks, to prevent the data loss.
 
 ### 2. Process

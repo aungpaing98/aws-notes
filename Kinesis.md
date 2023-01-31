@@ -15,7 +15,7 @@ Four services in Kinesis
 - Kinesis Video Streams
 	- Meant for streaming video in real time
 
-![[Kinesis.png]]
+![Kinesis](Kinesis.png)
 
 ---
 ## Kinesis Streams
@@ -27,13 +27,13 @@ Four services in Kinesis
 - Records can be up to 1MB in size.
 - Small, fast data stream. Not for batch analysis
 
-![[kinesis_streams.png]]
+![kinesis_streams](kinesis_streams.png)
 
 ### Capacity Modes
 #### Provisioned Mode
 - manually choose number of shards provisioned.
 - Each shard gets 1MB/s in (1000 records per second)
-- Each shard gets 2MB/s out (classic or [[fan-out]] consumer)
+- Each shard gets 2MB/s out (classic or [fan-out](fan-out.md) consumer)
 - Pay per shard provisioned per hour
 #### On-demand mode
 - no need to provision or manage the capacity
@@ -54,17 +54,17 @@ Store data into the target destination with batch, not real time.
 - Support compression when target is Amazon S3 (GZIP, ZIP and SNAPPY)
 - Pay for the data going through firehose
 
-![[kinesis_data_firehose.png]]![[data_firehose_delivery.png]]
+![kinesis_data_firehose](kinesis_data_firehose.png)![data_firehose_delivery](data_firehose_delivery.png)
 
 ## Difference between Stream and Firehose
 ### Streams
 - Going to write custom code (producer / consumer)
-- Real time (~200 ms latency for classic, ~70 ms latency for enhanced [[fan-out]])
+- Real time (~200 ms latency for classic, ~70 ms latency for enhanced [fan-out](fan-out.md))
 - Automatic scaling with On-Demand Mode
 - Data Storage for 1 to 365 days, replay capability, multi consumers
 ### Firehose
 - Fully managed, send to S3, Splunk, Redshift, ElasticSearch
-- [[Serverless]] data transformations with Lambda
+- [Serverless](Serverless.md) data transformations with Lambda
 - Near Real time (lowest buffer time is 1 minute)
 - Automated Scaling
 - No data Storage
@@ -72,7 +72,7 @@ Store data into the target destination with batch, not real time.
 ---
 ## Kinesis Analytics
 
-![[kinesis_analytics.png]]
+![kinesis_analytics](kinesis_analytics.png)
 
 ### Use cases
 - Streaming ETL
@@ -84,9 +84,9 @@ Store data into the target destination with batch, not real time.
  
 ### Features
 - pay only for resources consumed
-- [[Serverless]] , scales automatically
+- [Serverless](Serverless.md) , scales automatically
 - Use IAM permissions to access streaming source and destination(s)
-- SQL or Flink to write the computation
+- SQL or [[Flink]] to write the computation
 - Schema discovery
 - Lambda can be used for pre-processing
 
@@ -95,7 +95,7 @@ Store data into the target destination with batch, not real time.
 - HOTSPOTS : locate and return information about relatively dense region
 
 ### Streaming Applications
-- Apache Flink (standard, heavy code, cannot connect to Kinesis firehose)
+- Apache [[Flink]] (standard, heavy code, cannot connect to Kinesis firehose)
 - SQL Applications (legacy)
 
 
@@ -112,4 +112,4 @@ Store data into the target destination with batch, not real time.
 	- AWS Rekognition Video
 - Keep data for 1 hour to 10 years
 
- ![[kinesis_video_stream.png]]
+ ![kinesis_video_stream](kinesis_video_stream.png)

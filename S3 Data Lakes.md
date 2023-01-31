@@ -10,9 +10,9 @@ aliases : [ S3 ]
 - Max Object Size is 5TB
 - Object Tags ( key / value pair - up to 10 ) - useful for security / lifecycle
 - Backbone for many AWS ML Services ( eg. SageMaker )
-- Capable of creating a **"[[Data Lake]]"**
+- Capable of creating a **"[Data Lake](Data%20Lake.md)"**
 - Centralized Architecture
-- Support any file format ( CSV, JSON, Parquet, ORC, Avro, Protobuf)
+- Support any file format ( CSV, JSON, Parquet, ORC, Avro, [[protobuf]])
 
 ---
 ## AWS S3 Data Partitioning
@@ -35,7 +35,7 @@ Can move between classes manually or using S3 Lifecycle configurations
 | Glacier Deep Archive                     | for long term storage                                                       |                      | Standard ( 12 hours ), Bulk (48 hours)                        |            |                     | Minimum storage duration of 180 days                                         |
 | Intelligent-Tiering                      | Move objects automatically between Access Tiers based on usage              |                      |                                                               |            |                     | Frequent Access (default)  -> Infrequent Access (not accessed for 30 days) -> Archive Instant Access (90 days) -> Archive Access (90 days to 700+)                                                                          |
 
-![[storage_classes.png]]
+![storage_classes](storage_classes.png)
 
 [AWS S3 Pricing](https://aws.amazon.com/s3/pricing/)
 
@@ -72,7 +72,7 @@ Storage Class Analysis
 - 24 to 48 hours to start seeing data analysis
 - Good first step to put together Lifecycle Rules (or improve them)
 
-![[S3_analytics.png]]
+![S3_analytics](S3_analytics.png)
 
 ---
 ## S3 Versioning?
