@@ -19,7 +19,7 @@ async API : Large document : `StartDocumentAnalysis` or `StartDocumentTextDetect
 ## Other notes
 - HIPAA eligible
 - Pay-as-you-go
-- Can integrate with [[A2I]]
+- Can integrate with [[Augmented AI|A2I]]
 
 
 ![[human_review.png]]

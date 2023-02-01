@@ -57,10 +57,11 @@
 - Automatic Model tuning
 - SageMaker / Spark Integration
 ### High Level AI Services
-- Comprehend, [[Translate]], [[Polly]], [[Transcribe]]
+- [[Comprehend]], [[Translate]], [[Polly]], [[Transcribe]]
 - [[Lex]], [[Kendra]]
 - [[Rekognition]], DeepLens
-- [[Personalize]] / Forecast / [[Textract]]
+- [[Personalize]] / [[Forecast]] / [[Textract]]
+- [[CodeGuru]], [[Augmented AI]]
 ### Evaluating and Tuning
 - confusion matrix
 - RMSE
