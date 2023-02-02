@@ -4,73 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "861378a191b5c9a5",
+        "id": "ec646863dc5ff106",
         "type": "tabs",
         "children": [
           {
-            "id": "dc4717d55293dd79",
+            "id": "e656dbe86eb0d141",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Textract.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "710ab6dc6a8df7dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Augmented AI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "455ecd192d9fe879",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "307017f8ce193d87",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Augmented AI.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -139,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Augmented AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Augmented AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Augmented AI.md"
-              }
+              "state": {}
             }
           },
           {
@@ -210,17 +148,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "710ab6dc6a8df7dd",
+  "active": "e656dbe86eb0d141",
   "lastOpenFiles": [
-    "Textract.md",
+    "Review Questions.md",
     "AWS Certified Machine Learning Speciality 2023.md",
-    "A2I.md",
-    "S3 Data Lakes.md",
-    "Augmented AI.md",
-    "CodeGuru.md",
-    "Comprehend.md",
-    "AWS Batch.md",
-    "Forecast.md",
-    "SageMaker.md"
+    "Panorama Device and SDK.md",
+    "DeepComposer.md",
+    "DeepRacer.md",
+    "DeepLens.md",
+    "Machine Learning (ML), Deep Learning (DL) Framework.md",
+    "Textract.md",
+    "SageMaker.md",
+    "Augmented AI.md"
   ]
 }

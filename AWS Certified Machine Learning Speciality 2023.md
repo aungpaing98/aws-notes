@@ -53,15 +53,20 @@
 - [[Metrics]]
 ### SageMaker
 - [[SageMaker]]
-- Built-in Algorithms
-- Automatic Model tuning
-- SageMaker / Spark Integration
+
 ### High Level AI Services
 - [[Comprehend]], [[Translate]], [[Polly]], [[Transcribe]]
 - [[Lex]], [[Kendra]]
-- [[Rekognition]], DeepLens
+- [[Rekognition]]
 - [[Personalize]] / [[Forecast]] / [[Textract]]
 - [[CodeGuru]], [[Augmented AI]]
+
+### Machine Learning Devices
+- [[DeepLens]]
+- [[DeepRacer]]
+- [[DeepComposer]]
+- [[Panorama Device and SDK]]
+
 ### Evaluating and Tuning
 - confusion matrix
 - RMSE
